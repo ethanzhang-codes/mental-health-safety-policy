@@ -1,0 +1,2 @@
+split,metric,value,best,worst,source
+clinician test,macro AUPRC,0.331959,RA: .447027,CA: .182142,category_model_summary.txt

@@ -1,0 +1,5 @@
+level,action,learned_component,guardrail_summary
+0,continue conversation,learned prediction unless guardrail raises it,none
+1,offer supportive resources,learned prediction or light guardrail,minimum 1 for moderate Alert/Confirm/volatility patterns
+2,defer to human support,learned prediction or guardrail,minimum 2 for high Confirm or accumulated Alert patterns
+3,urgent escalation,learned prediction or guardrail,minimum 3 for high Confirm plus suicide/self-harm or escalation evidence

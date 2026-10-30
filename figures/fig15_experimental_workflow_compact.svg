@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="390" viewBox="0 0 1700 390">
+  <defs>
+    <marker id="arrow15" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#444"/></marker>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#171717}.title{font-size:18px;font-weight:600}.sub{font-size:14px}.note{font-size:13px;fill:#666}.box{stroke:#444;stroke-width:1.5;rx:10}.line{fill:none;stroke:#444;stroke-width:2;marker-end:url(#arrow15)}.phase{fill:none;stroke:#888;stroke-width:1.5;stroke-dasharray:8 6;rx:14}
+    </style>
+  </defs>
+  <rect width="1700" height="390" fill="white"/>
+
+  <rect class="phase" x="545" y="45" width="855" height="205"/>
+  <text class="note" x="972" y="32" text-anchor="middle">MODEL DEVELOPMENT AND VALIDATION-ONLY SELECTION</text>
+
+  <rect class="box" x="25" y="100" width="190" height="90" fill="#DCEEFF"/>
+  <text class="title" x="120" y="133" text-anchor="middle">Acquire datasets</text>
+  <text class="sub" x="120" y="162" text-anchor="middle">AnnoMI + CRADLE</text>
+
+  <rect class="box" x="290" y="100" width="190" height="90" fill="#DDF2E1"/>
+  <text class="title" x="385" y="133" text-anchor="middle">Preprocess</text>
+  <text class="sub" x="385" y="162" text-anchor="middle">+ fixed splits</text>
+
+  <rect class="box" x="575" y="100" width="190" height="90" fill="#E7DDF5"/>
+  <text class="title" x="670" y="133" text-anchor="middle">Train models</text>
+  <text class="sub" x="670" y="162" text-anchor="middle">on train split</text>
+
+  <rect class="box" x="840" y="90" width="235" height="110" fill="#FFF0C7"/>
+  <text class="title" x="958" y="126" text-anchor="middle">Select checkpoints</text>
+  <text class="sub" x="958" y="155" text-anchor="middle">+ thresholds on validation</text>
+
+  <rect class="box" x="1150" y="90" width="220" height="110" fill="#FAD9B8"/>
+  <text class="title" x="1260" y="126" text-anchor="middle">Develop policy</text>
+  <text class="sub" x="1260" y="155" text-anchor="middle">+ guardrails on validation</text>
+
+  <rect class="box" x="1470" y="100" width="200" height="90" fill="#D5E8F6"/>
+  <text class="title" x="1570" y="133" text-anchor="middle">Report frozen</text>
+  <text class="sub" x="1570" y="162" text-anchor="middle">test outputs</text>
+
+  <path class="line" d="M215 145 H290"/>
+  <path class="line" d="M480 145 H575"/>
+  <path class="line" d="M765 145 H840"/>
+  <path class="line" d="M1075 145 H1150"/>
+  <path class="line" d="M1370 145 H1470"/>
+
+  <text class="note" x="385" y="235" text-anchor="middle">Separate train, validation, and clinician-test files</text>
+  <text class="note" x="1570" y="235" text-anchor="middle">Test metrics are reporting-only for the stated selection decision</text>
+  <text class="note" x="850" y="330" text-anchor="middle">Offline experimental workflow; no model training is performed during test reporting.</text>
+</svg>
+

@@ -1,0 +1,5 @@
+citation_key,authors,year,title,venue,doi_or_url,topic,project_relation,status
+annomi_dataset,UNKNOWN,UNKNOWN,AnnoMI dataset paper/documentation,UNKNOWN,UNKNOWN,AnnoMI,prototype dialogue source,external verification required
+cradle_dialogue,UNKNOWN,UNKNOWN,CRADLE-Dialogue dataset paper/documentation,UNKNOWN,UNKNOWN,CRADLE,main evaluation dataset,external verification required
+deberta_v3,UNKNOWN,UNKNOWN,DeBERTa-v3,UNKNOWN,UNKNOWN,encoder,selected encoder family,external verification required
+temperature_scaling,UNKNOWN,UNKNOWN,Temperature scaling / neural-network calibration reference,UNKNOWN,UNKNOWN,calibration,prototype method,external verification required

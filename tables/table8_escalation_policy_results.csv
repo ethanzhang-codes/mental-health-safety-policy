@@ -1,0 +1,5 @@
+condition,dataset,split,metric,numerator,denominator,rate,ci95_low,ci95_high,uncertainty_note
+Safety-constrained + original Confirm,CRADLE-Dialogue,clinician test,high-risk unsafe continuation,140,470,0.2978723404255319,0.2570263925079332,0.3389839543204076,single seed; dialogue-cluster bootstrap CI
+Safety-constrained + original Confirm,CRADLE-Dialogue,clinician test,over-escalation burden,455,3824,0.11898535564853556,0.11177074133160032,0.12627218504104498,single seed; dialogue-cluster bootstrap CI
+Safety-constrained + B_pos_weight_x2,CRADLE-Dialogue,clinician test,high-risk unsafe continuation,108,470,0.2297872340425532,0.19238126138195216,0.2670689166924107,single seed; dialogue-cluster bootstrap CI
+Safety-constrained + B_pos_weight_x2,CRADLE-Dialogue,clinician test,over-escalation burden,468,3824,0.12238493723849372,0.11526112722529,0.12977898684825706,single seed; dialogue-cluster bootstrap CI

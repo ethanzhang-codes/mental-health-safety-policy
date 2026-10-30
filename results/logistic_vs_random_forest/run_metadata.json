@@ -1,0 +1,27 @@
+{
+  "datasets": {
+    "old_confirm": "cradle_dialogue/data/progression_features",
+    "high_recall_confirm": "cradle_dialogue/data/progression_features_high_recall_confirm"
+  },
+  "models": [
+    "logistic_regression",
+    "random_forest"
+  ],
+  "guardrail_variants": [
+    "strict_safety",
+    "balanced_safety",
+    "light_safety",
+    "confirm_priority_safety",
+    "user_custom_safety"
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "selection_data": "validation",
+  "test_used_for_selection": false,
+  "raw_text_exported": false
+}

@@ -1,0 +1,9 @@
+model,split,auroc,auprc,tuned_recall,tuned_f1,source,task,precision,recall,f1,threshold
+Single-turn Alert,validation,0.607675,0.090167,,,single_task_vs temporal report,Alert,,,,
+Temporal Alert hw8,validation,0.859042,0.238532,,0.105634,single_task_vs temporal report,Alert,,,,
+Single-turn Alert,clinician test,0.536585,0.055381,,,single_task_vs temporal report,Alert,,,,
+Temporal Alert hw8,clinician test,0.73571,0.086796,0.25641,0.105634,single_task_vs temporal report,Alert,,,,
+Original Confirm,validation,,,,,cradle_dialogue/results/single_task_confirm/seed_1.txt,Confirm,,,,
+Original Confirm,clinician test,,,,,cradle_dialogue/results/single_task_confirm/seed_1.txt,Confirm,,,,
+B_pos_weight_x2,validation,0.9927719520688993,0.934170332882162,,,cradle_dialogue/results/single_task_confirm_high_recall/B_pos_weight_x2/seed_1.txt,Confirm,0.81194,0.951049,0.876006,0.011
+B_pos_weight_x2,clinician test,0.8839562825481568,0.6518664327800678,,,cradle_dialogue/results/single_task_confirm_high_recall/B_pos_weight_x2/seed_1.txt,Confirm,0.761755,0.517021,0.61597,0.011

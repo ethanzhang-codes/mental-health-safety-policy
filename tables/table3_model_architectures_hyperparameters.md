@@ -1,0 +1,10 @@
+# Table 3. Model architectures and hyperparameters
+
+Values are code- and report-derived; NA means not recorded in a comparable form.
+
+| condition | batch_size | epochs | learning_rate | weight_decay | dropout | max_length_or_context | optimizer | scheduler | loss | seed |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| CRADLE single-turn Alert/Confirm | 32 | 5 | 2e-5 | 0.01 | 0.3 | 256 | AdamW | linear, no warmup | weighted BCE | 1 |
+| B_pos_weight_x2 Confirm | 32 | 5 | 2e-5 | 0.01 | 0.3 | 256 | AdamW | linear, no warmup | BCEWithLogits; pos_weight 23.158823529411766 | 1 |
+| Temporal Alert frozen embeddings | 128 | 5 | 2e-5 | NA | configured in model | history window 8 | AdamW | linear | weighted BCE | 1 |
+| Category | 32 | 5 | 2e-5 | 0.01 | 0.3 | 256 | AdamW | linear, no warmup | multi-label weighted BCE | 1 |

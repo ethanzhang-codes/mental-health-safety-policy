@@ -1,0 +1,15 @@
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+seaborn
+torch
+transformers
+tensorboard
+tqdm
+
+# Optional experiments
+xgboost
+ruptures
+

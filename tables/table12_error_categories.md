@@ -1,0 +1,13 @@
+# Table 12. Error-analysis categories
+
+Categories overlap and derive from the existing context-error analysis, not independent clinical adjudication.
+
+| category | count | percent |
+| --- | --- | --- |
+| indirect_or_ambiguous | 78 | 72.22222222222221 |
+| important_evidence_earlier | 63 | 58.333333333333336 |
+| gradual_progression | 53 | 49.074074074074076 |
+| unusual_wording | 50 | 46.2962962962963 |
+| other | 40 | 37.03703703703704 |
+| calibration_or_confidence | 38 | 35.18518518518518 |
+| label_ambiguity | 15 | 13.88888888888889 |

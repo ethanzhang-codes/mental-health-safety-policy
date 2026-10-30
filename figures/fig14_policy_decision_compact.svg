@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420">
+  <defs>
+    <marker id="arrow14" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#444"/></marker>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#171717}.title{font-size:18px;font-weight:600}.sub{font-size:15px}.note{font-size:13px;fill:#666}.box{stroke:#444;stroke-width:1.5;rx:10}.line{fill:none;stroke:#444;stroke-width:2;marker-end:url(#arrow14)}
+    </style>
+  </defs>
+  <rect width="1400" height="420" fill="white"/>
+
+  <rect class="box" x="35" y="165" width="245" height="82" fill="#DCEEFF"/>
+  <text class="title" x="157" y="196" text-anchor="middle">Model probabilities</text>
+  <text class="sub" x="157" y="222" text-anchor="middle">+ causal progression features</text>
+
+  <rect class="box" x="370" y="75" width="260" height="82" fill="#FAD9B8"/>
+  <text class="title" x="500" y="106" text-anchor="middle">Random-forest policy</text>
+  <text class="sub" x="500" y="132" text-anchor="middle">learned level ℓ̂ ∈ {0,1,2,3}</text>
+
+  <rect class="box" x="370" y="255" width="260" height="82" fill="#F5C7C7"/>
+  <text class="title" x="500" y="286" text-anchor="middle">Safety guardrails</text>
+  <text class="sub" x="500" y="312" text-anchor="middle">minimum level g ∈ {0,1,2,3}</text>
+
+  <rect class="box" x="760" y="165" width="245" height="82" fill="#DDF2E1"/>
+  <text class="title" x="882" y="196" text-anchor="middle">Safety-constrained level</text>
+  <text class="sub" x="882" y="222" text-anchor="middle">ℓ = max(ℓ̂, g)</text>
+
+  <rect class="box" x="1100" y="145" width="265" height="122" fill="#D5E8F6"/>
+  <text class="title" x="1232" y="178" text-anchor="middle">Action + template rationale</text>
+  <text class="sub" x="1232" y="207" text-anchor="middle">continue | resources</text>
+  <text class="sub" x="1232" y="234" text-anchor="middle">human defer | urgent escalation</text>
+
+  <path class="line" d="M280 206 H325 V116 H370"/>
+  <path class="line" d="M280 206 H325 V296 H370"/>
+  <path class="line" d="M630 116 H690 V190 H760"/>
+  <path class="line" d="M630 296 H690 V222 H760"/>
+  <path class="line" d="M1005 206 H1100"/>
+
+  <text class="note" x="157" y="285" text-anchor="middle">Evidence available at the current user turn</text>
+  <text class="note" x="882" y="290" text-anchor="middle">Guardrails can raise, but not lower, the learned level</text>
+</svg>
+

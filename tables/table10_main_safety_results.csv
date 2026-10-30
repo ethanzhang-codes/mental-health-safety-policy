@@ -1,0 +1,3 @@
+metric,denominator,old_count,new_count,old_rate,new_rate,absolute_change_percentage_points,relative_change_percent,improved_cases,worsened_cases,paired_exact_mcnemar_p
+high-risk unsafe continuation,470,140,108,0.2978723404255319,0.2297872340425532,-6.8085106382978715,-22.857142857142854,32,0,4.656612873077393e-10
+over-escalation burden,3824,455,468,0.11898535564853556,0.12238493723849372,0.33995815899581644,2.857142857142862,8,21,0.0241195447742939

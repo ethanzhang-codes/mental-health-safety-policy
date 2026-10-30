@@ -1,0 +1,8 @@
+# Table 7. Temporal-feature ablation
+
+History-window evidence exists for Alert; temporal Confirm was rejected.
+
+| ablation | contrast | split | metric | baseline | variant | change | status |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Temporal Alert | single turn -> history window 8 | validation | AUROC | 0.607675 | 0.859042 | 0.251367 | selected |
+| Temporal Alert | single turn -> history window 8 | clinician test | AUROC | 0.536585 | 0.73571 | 0.199125 | reporting |

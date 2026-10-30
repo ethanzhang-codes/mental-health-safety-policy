@@ -1,0 +1,16 @@
+encoder,batch_size,seed,test_macro_f1,test_high_risk_recall,source
+deberta_v3_large,32,1,0.968332,1.0,module1_encoder_benchmark/results/deberta_v3_large/bs32/seed_1.txt
+deberta_v3_large,32,2,0.96628,1.0,module1_encoder_benchmark/results/deberta_v3_large/bs32/seed_2.txt
+deberta_v3_large,32,3,0.967829,0.997151,module1_encoder_benchmark/results/deberta_v3_large/bs32/seed_3.txt
+deberta_v3_large,32,4,0.966334,1.0,module1_encoder_benchmark/results/deberta_v3_large/bs32/seed_4.txt
+deberta_v3_large,32,5,0.966392,1.0,module1_encoder_benchmark/results/deberta_v3_large/bs32/seed_5.txt
+mental_roberta_large,32,1,0.959647,1.0,module1_encoder_benchmark/results/mental_roberta_large/bs32/seed_1.txt
+mental_roberta_large,32,2,0.95933,1.0,module1_encoder_benchmark/results/mental_roberta_large/bs32/seed_2.txt
+mental_roberta_large,32,3,0.953909,1.0,module1_encoder_benchmark/results/mental_roberta_large/bs32/seed_3.txt
+mental_roberta_large,32,4,0.954585,0.988604,module1_encoder_benchmark/results/mental_roberta_large/bs32/seed_4.txt
+mental_roberta_large,32,5,0.962118,1.0,module1_encoder_benchmark/results/mental_roberta_large/bs32/seed_5.txt
+modernbert_large,32,1,0.962166,0.991453,module1_encoder_benchmark/results/modernbert_large/bs32/seed_1.txt
+modernbert_large,32,2,0.964869,0.994302,module1_encoder_benchmark/results/modernbert_large/bs32/seed_2.txt
+modernbert_large,32,3,0.960904,0.991453,module1_encoder_benchmark/results/modernbert_large/bs32/seed_3.txt
+modernbert_large,32,4,0.9623,0.988604,module1_encoder_benchmark/results/modernbert_large/bs32/seed_4.txt
+modernbert_large,32,5,0.961847,0.991453,module1_encoder_benchmark/results/modernbert_large/bs32/seed_5.txt

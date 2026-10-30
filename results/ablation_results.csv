@@ -1,0 +1,7 @@
+ablation,contrast,split,metric,baseline,variant,change,status
+Temporal Alert,single turn -> history window 8,validation,AUROC,0.607675,0.859042,0.251367,selected
+Temporal Alert,single turn -> history window 8,clinician test,AUROC,0.536585,0.73571,0.199125,reporting
+High-recall Confirm,old -> B_pos_weight_x2,clinician test,recall,0.388535,0.517021,0.128486,B validation-selected
+Policy Confirm swap,old -> B_pos_weight_x2,clinician test,unsafe continuation,0.2978723404255319,0.2297872340425532,-0.0680851063829787,main result
+Uncertainty policy features,baseline -> uncertainty,validation,unsafe continuation,0.02097902097902098,0.02097902097902098,0.0,rejected
+Guardrail v3,baseline -> selected/kept,validation,unsafe continuation,0.02097902097902098,0.02097902097902098,0.0,rejected

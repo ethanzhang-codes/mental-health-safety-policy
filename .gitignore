@@ -1,0 +1,52 @@
+# Raw and derived data
+data/*
+!data/README.md
+**/data/
+**/policy_outputs/
+**/predictions/
+**/*false_negative*
+**/*raw_dialogue*
+**/*conversation*.csv
+**/*turn_predictions*.csv
+
+# Models, embeddings, and large artifacts
+**/models/
+**/embeddings/
+**/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.bin
+*.safetensors
+
+# Logs, caches, and local runtime files
+**/logs/
+**/tensorboard_logs/
+*.log
+events.out.tfevents.*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials*
+secrets*
+
+# Virtual environments and editors
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+

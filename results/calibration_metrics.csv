@@ -1,0 +1,5 @@
+model,dataset,split,calibration_status,n,ece_10_bin,brier_score,negative_log_likelihood,average_precision,source
+Original Confirm,CRADLE-Dialogue,clinician test,uncalibrated,4527,0.0737363065339607,0.07380288840183835,0.5267079769021714,0.6430111066527171,cradle_dialogue/predictions/single_task_confirm/seed_1_test_predictions.csv
+B_pos_weight_x2 Confirm,CRADLE-Dialogue,clinician test,uncalibrated,4527,0.06848875711680849,0.06820986215722238,0.6203209084025687,0.6518664327800678,cradle_dialogue/predictions/single_task_confirm_high_recall/B_pos_weight_x2/seed_1_test_predictions.csv
+Five-seed severity ensemble,constructed severity dataset,test,uncalibrated,2235,0.00608003479124232,0.018194950348577998,0.03152784192081984,,outputs/ensemble_uncertainty_test.csv
+Five-seed severity ensemble,constructed severity dataset,test,temperature-scaled,2235,0.005263489038540089,0.018171773057742348,0.03129592125319518,,outputs/ensemble_uncertainty_test_calibrated.csv
